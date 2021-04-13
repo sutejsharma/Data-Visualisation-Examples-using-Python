@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import csv
 
-file_path = "C:\\Users\\admin\\Desktop\\Tapclicks Challenge\\SQLite.csv"
+file_path = "C:\\Users\\admin\\Desktop\\SQLite.csv"
 
 data_file = pd.read_csv(file_path, parse_dates=True, squeeze = True)
 
